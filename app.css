@@ -1,0 +1,33 @@
+form div
+{
+    display:inline-block;
+    margin: 0 5px;
+}
+form div span
+{
+    font-style: italic;
+    display:block;
+    padding: 0 5px;
+}
+table
+{
+    border:1px solid gray;
+    border-radius: 5px;
+}
+table tr:first-child td
+{
+    font-weight:bold;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+table tr td
+{
+    padding:2px 5px;
+    margin:0;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+table tr:last-child td
+{
+    border-bottom: none;
+}
